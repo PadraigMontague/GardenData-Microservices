@@ -1,4 +1,5 @@
 # GardenData-Microservices
+This project contains the microservices for the GardenData UI project. Microservices such as : Load-balancer, authentication-microservice, garden-tracker-microservice and reminder-microservice
 
 ## Technologies used
     Core technologies:
