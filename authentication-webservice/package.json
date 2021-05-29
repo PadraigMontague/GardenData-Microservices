@@ -1,0 +1,21 @@
+{
+  "name": "authentication-webservice",
+  "version": "1.0.0",
+  "description": "authentication web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.1.1",
+    "mysql": "^2.18.1"
+  }
+}
