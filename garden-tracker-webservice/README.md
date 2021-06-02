@@ -1,5 +1,5 @@
 # GardenData garden tracker webservice
-    This webservice accepts growing data which the user inputs. It also allows the user to retrieve their data using many different search filters. This data would be particularly useful to display as chart data.
+This webservice accepts growing data which the user inputs. It also allows the user to retrieve their data using many different search filters. This data would be particularly useful to display as chart data.
 
 
 ## Technologies used
