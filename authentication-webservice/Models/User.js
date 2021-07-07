@@ -51,17 +51,17 @@ class User extends _DBConnection {
         let dbauth = new DBAuth();
         let oldUsername = dbauth.prepareStatement(oldUser);
         let newUsername = dbauth.prepareStatement(newUser);
-        let sql = `UPDATE users SET username ='${newUsername}' WHERE username='${oldUsername}')`;
+        let sql = `UPDATE users SET username ='${newUsername}' WHERE username='${oldUsername}'`;
         this.db.executeUpdate(sql, (result) => {
             this.status = { message: 'Username Updated' };
             fun(this.status);
         });
     }
-    
-    deleteUser() { 
+
+    deleteUser() {
         let dbauth = new DBAuth();
         let preparedUsername = dbauth.prepareStatement(this.username);
-        let sql = `DELETE FROM users WHERE username='${preparedUsername}')`;
+        let sql = `DELETE FROM users WHERE username='${preparedUsername}'`;
         this.db.executeDelete(sql, (result) => {
             fun(result);
         });
